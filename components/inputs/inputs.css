@@ -1,0 +1,11 @@
+#input--title, #input--descr{
+    display: block;
+    margin-bottom: 20px;
+    background-color: magenta;
+    border: none;
+    border-bottom: 3px solid aliceblue;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 800;
+}
