@@ -124,7 +124,7 @@ sendBtn.addEventListener('click', (e)=> {
     
     list.push(toDoListWrapper);
 
-
+//!TASK2(CREATE FUNC DELETE FOR DELETE-BTN)
     //DELETE LIST FROM ARR AND DOM
     deleteBtn.addEventListener("click", (e)=> {
     for(const el of list){
@@ -145,7 +145,7 @@ sendBtn.addEventListener('click', (e)=> {
         }
     }
     })
-
+//!
     doneBtn.addEventListener("click", (e)=> {
         //DELETE AND CREATE NEW ELEMENT TO PUT IN DONE LIST
         for(const el of list){
