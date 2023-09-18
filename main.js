@@ -125,26 +125,26 @@ sendBtn.addEventListener('click', (e)=> {
     list.push(toDoListWrapper);
 
 
-    // //DELETE LIST FROM ARR AND DOM
-    // deleteBtn.addEventListener("click", (e)=> {
-    // for(const el of list){
-    //     if(e.target.parentElement === el){
-    //         const elindex = list.indexOf(el);
+    //DELETE LIST FROM ARR AND DOM
+    deleteBtn.addEventListener("click", (e)=> {
+    for(const el of list){
+        if(e.target.parentElement === el){
+            const elindex = list.indexOf(el);
 
-    //         el.remove();
-    //         list.splice(elindex, elindex + 1);
-    //     }
-    // }
+            el.remove();
+            list.splice(elindex, elindex + 1);
+        }
+    }
 
-    // for(const el of doneListElChildren){
-    //     if(e.target.parentElement === el){
-    //         const elindex = doneListElChildren.indexOf(el);
+    for(const el of doneListElChildren){
+        if(e.target.parentElement === el){
+            const elindex = doneListElChildren.indexOf(el);
 
-    //         el.remove();
-    //         doneListElChildren.splice(elindex, elindex + 1);
-    //     }
-    // }
-    // })
+            el.remove();
+            doneListElChildren.splice(elindex, elindex + 1);
+        }
+    }
+    })
 
     doneBtn.addEventListener("click", (e)=> {
         //DELETE AND CREATE NEW ELEMENT TO PUT IN DONE LIST
